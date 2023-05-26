@@ -164,6 +164,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                   fontWeight: FontWeight.w600,
                                 ),
                                 decoration: InputDecoration(
+                                  prefixIcon: const Icon(Icons.email_outlined),
                                   labelText: 'Email',
                                   border: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(15),
@@ -187,6 +188,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                   fontWeight: FontWeight.w600,
                                 ),
                                 decoration: InputDecoration(
+                                  prefixIcon: const Icon(Icons.lock_open),
                                   labelText: 'Password',
                                   border: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(15),

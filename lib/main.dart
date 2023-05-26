@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         ),
         initialRoute: LoginScreen.routeName,
         routes: {
-          LoginScreen.routeName: (context) => LoginScreen(),
+          LoginScreen.routeName: (context) => const LoginScreen(),
           RegisterScreen.routeName: (context) => const RegisterScreen(),
           DashboardScreen.routeName: (context) => const DashboardScreen(),
         },
